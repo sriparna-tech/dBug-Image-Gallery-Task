@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>My Simple Image Gallery</h1>
+
+   <div class="gallery-container">
+    <img src="https://picsum.photos/300/250" alt="Test Image" class="gallery-img"> 
+    
+    <img src="./IMAGES/img2.jpg" alt="A quiet forest path" class="gallery-img">
+    
+        <img src="./IMAGES/img3.jpg" alt="A bustling city skyline at night" class="gallery-img">
+        <img src="./IMAGES/img4.jpg" alt="A serene sunset over the ocean" class="gallery-img">
+    </div>
+
+    <div id="imageModal" class="modal">
+        <span class="close-btn">&times;</span>
+        
+        <img class="modal-content" id="modalImage">
+        
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
